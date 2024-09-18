@@ -1,0 +1,26 @@
+.active{
+    display: none;
+}
+
+@media screen and(max-width: '400px') {
+   .active{
+        display: block;
+   }
+}
+
+.indentation{
+    top: 97px;
+    border-right: none!important;
+}
+
+.flexclass{
+    display: flex;
+    /* align-content: flex-start; */
+    padding-left: 5%;
+}
+
+.flexclass2{
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-around;
+}

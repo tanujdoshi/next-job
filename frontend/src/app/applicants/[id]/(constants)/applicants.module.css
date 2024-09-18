@@ -1,0 +1,65 @@
+.titles{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.cards{
+    border: 1px solid #E5E5E5;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+.fixedLayout {
+    table-layout: fixed;
+}
+
+.col1Width {
+    width: 20%;
+}
+
+.col2Width {
+    width: 30%;
+}
+
+.col3Width {
+    width: 15%;
+}
+
+.col4Width {
+    width: 15%;
+}
+
+.col5Width {
+    width: 20%;
+}
+
+.col6Width {
+    width: 20%;
+}
+
+.hr{
+    border: 0.8px solid #D4D2D0;
+}
+
+.buttonApplicants{
+    padding: 6px 18px;
+    max-width: 200px; 
+    background-color:#2457A7;
+}
+
+.cardTitle{
+    text-align: left;
+    font-size: 18px;
+}
+
+.buttonEdit{
+    padding: 0;
+    background-color: green;
+    color: white;
+    width: 20px;
+}

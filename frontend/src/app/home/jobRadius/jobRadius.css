@@ -1,0 +1,120 @@
+
+
+.root {
+    background-color: #fff;
+    height: 90vh;
+    overflow-y: hidden;
+    color: black;
+    overflow: hidden;
+}
+
+.radiusBttn {
+    width: 12vw;
+    height: 5vh;
+    color: black;
+}
+
+.dividerView {
+    display: flex;
+    flex-direction: row;
+}
+
+.half-view {
+    width: 100vw;
+    height: 100vh;
+}
+
+.salaryDiv {
+    background-color: #8ecdbc;
+    /* padding: 1rem; */
+}
+
+.salaryTxt {
+    /* font-size: 0.7rem; */
+    /* font-weight: 450; */
+}
+
+.searchToolbar {
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    z-index: 1;
+    margin-right: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+    padding: 0.3rem;
+}
+
+.job-post {
+    height: 90vh;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.job-post2 {
+    height: 90vh;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    flex-flow: column wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.notFound-logo-jobs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+}
+
+.search-jobs {
+    margin-top: 1.2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1335px) {
+    .job-post2 {
+        height: 40vh;
+        width: 100%;
+        overflow: initial;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .job-post {
+        height: 40vh;
+        width: 100%;
+        overflow: initial;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .job-post2 {
+        height: 40vh;
+        width: 100%;
+        overflow: initial;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dividerView {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .half-view {
+        width: 100vw;
+        height: 50vh;
+    }
+}

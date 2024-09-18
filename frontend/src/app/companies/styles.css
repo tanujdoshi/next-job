@@ -1,0 +1,111 @@
+.parentContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: gray; */
+    overflow-y: scroll;
+    background-image:url("https://img.freepik.com/free-photo/new-york-city-panorama_649448-41.jpg?w=1800&t=st=1690422952~exp=1690423552~hmac=6e588ad2859dd13f41e47ee3cee950cc147d57588be0450358eae4e8ce1a2394");
+    /* backdrop-filter: blur(5px); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+    /* blur the background */
+  }
+
+  
+  
+  .coverImage {
+    /* position: absolute; */
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    /* background-image: url("https://img.freepik.com/free-photo/close-up-modern-office-buildings_1359-1051.jpg?w=1800&t=st=1690423396~exp=1690423996~hmac=5b2ea1e8c1d33637fe73114a8d77c155493a71a977ee387575e8610f603bbd2d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+  }
+  
+  .content {
+    position: relative;
+    margin-top: 50px;
+    margin-left:8%;
+    margin-right:8%;
+    min-height: 2500px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .logoImage {
+    max-width: inherit;
+    max-height: inherit;
+    background-color: white;
+    padding: 2%;
+}
+
+.logoContainer {
+    max-height: 100px;
+    max-width: 200px;
+    /* background-color: yellow; */
+    margin-top: -32px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDiv {
+  min-width: 100%;
+  background-color: white;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aqua;
+  height: 70px;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #e6e6e6;
+}
+
+.tab.active {
+    background-color: #e6e6e6;
+}
+
+.tabTitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mainContentContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 8%; */
+    /* margin-right: 8%; */
+    background-color: white;
+    min-height: fit-content;
+}

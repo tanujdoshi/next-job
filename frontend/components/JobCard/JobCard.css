@@ -1,0 +1,112 @@
+.card {
+    border: 1px solid #B5A9A9;
+    margin: 10px;
+    border-radius: 22px;
+    max-height: 305px;
+}
+
+.job-content {
+    border: 1px solid transparent;
+    border-radius: 24px;
+    margin-top: 0.7rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    background-color: rgb(238, 244, 245);
+}
+
+.job-date {
+    border: 1px solid transparent;
+    border-radius: 48px;
+    width: max-content;
+    margin-top: 1.2rem;
+    margin-left: 1.1rem;
+    background-color: rgb(238, 113, 113);
+    color: #fff;
+    font-size: 16px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.company {
+    font-weight: 300;
+}
+
+.title {
+    font-weight: 400;
+}
+
+.company-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.comp-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.job-type {
+    border: 1px solid #B5A9A9;
+    width: max-content;
+    border-radius: 48px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin-left: 1.1rem;
+    margin-bottom: 1.2rem;
+    color: #000;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2.3rem;
+    margin-right: 1rem;
+}
+
+.salary-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sal {
+    font-weight: 370;
+    font-size: 16px;
+}
+
+.location {
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(188, 91, 91);
+
+}
+
+.details-bttn {
+    background-color: rgba(140, 226, 112, 0.859);
+    color: #000;
+    border-radius: 24px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+}

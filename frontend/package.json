@@ -1,0 +1,43 @@
+{
+  "name": "next-job",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "GENERATE_SOURCEMAP=false next dev",
+    "build": "GENERATE_SOURCEMAP=false next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.14.1",
+    "@mui/lab": "^5.0.0-alpha.136",
+    "apexcharts": "^3.40.0",
+    "country-state-city": "^3.1.4",
+    "formik": "^2.4.2",
+    "@mui/joy": "^5.0.0-alpha.87",
+    "@mui/material": "^5.13.5",
+    "@mui/x-date-pickers": "^6.9.2",
+    "@react-google-maps/api": "^2.18.1",
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "date-fns": "^2.30.0",
+    "antd": "4.24.3",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4",
+    "next": "^13.4.3",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.14.2",
+    "typescript": "5.0.4",
+    "yup": "^1.2.0",
+    "react-tooltip": "^5.13.1"
+  }
+}

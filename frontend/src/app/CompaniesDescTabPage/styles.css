@@ -1,0 +1,100 @@
+.des-container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.7fr 3.8fr;
+    grid-auto-columns: 1fr;
+    gap: 1em 0px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "des-grid1 des-grid2"
+      "des-grid3 des-grid4"
+      "des-grid5 des-grid6"
+      "des-grid7 des-grid8"
+      "des-grid9 des-grid10"
+      "overview-title-grid overview-title-grid"
+      "overview-desc-grid overview-desc-grid";
+    width: 100%;
+    height: 100%;
+  }
+  
+  .des-grid1 { 
+    grid-area: des-grid1; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid2 { 
+    grid-area: des-grid2; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid3 { 
+    grid-area: des-grid3; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid4 { 
+    grid-area: des-grid4; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid5 { 
+    grid-area: des-grid5; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid6 { 
+    grid-area: des-grid6; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid7 { 
+    grid-area: des-grid7; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid8 { 
+    grid-area: des-grid8; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid9 { 
+    grid-area: des-grid9; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .des-grid10 { 
+    grid-area: des-grid10; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .overview-title-grid { grid-area: overview-title-grid; }
+  
+  .overview-desc-grid { grid-area: overview-desc-grid; }
+
+  .boldClass {
+    font-weight: bold;
+  }
+
+  .valueAlign {
+    margin-left: 10px;
+  }
+  
